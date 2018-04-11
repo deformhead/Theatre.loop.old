@@ -1,4 +1,4 @@
-export default function Loop(framerate) {
+export function Loop(framerate) {
 
     const timeframe = 1000 / (framerate || 60);
 
