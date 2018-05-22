@@ -1,4 +1,4 @@
-export function Loop(framerate) {
+function Loop(framerate) {
 
     const timeframe = 1000 / (framerate || 60);
 
@@ -40,4 +40,9 @@ export function Loop(framerate) {
 
     this.render = render;
     this.update = update;
+}
+
+export {
+
+    Loop
 };
