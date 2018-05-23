@@ -42,7 +42,5 @@ function Loop(framerate) {
     this.update = update;
 }
 
-export {
-
-    Loop
-};
+// exports current module as an object
+export {Loop};
