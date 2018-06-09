@@ -1,6 +1,6 @@
 function Loop(framerate) {
 
-    const timeframe = 1000 / (framerate || 60);
+    const timeframe = 1000 / framerate;
 
     let elapsedTime = 0;
     let lastUpdate = null;
